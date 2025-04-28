@@ -8,7 +8,7 @@ import './index.css';
 
 export default function App() {
     return (
-        <Router>
+        <Router basename="/Port">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />

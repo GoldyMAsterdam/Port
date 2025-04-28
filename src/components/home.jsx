@@ -5,9 +5,9 @@ import '../index.css';
 export default function Home() {
     return (
         <>
-        <title>Goldy - Home</title>
+            <title>Goldy - Home</title>
         
-        <div className="bg-grid min-h-screen flex flex-col relative">
+        <div className="bg-grid scroll-smooth min-h-screen flex flex-col relative">
             <nav className="bg-transparent text-gray-100 p-4 fixed w-full top-0 z-10">
                 <ul className="flex flex-wrap justify-center space-x-4 md:space-x-8">
                     <li><Link to="/" className="text-teal-400">Home</Link></li>
@@ -32,7 +32,7 @@ export default function Home() {
                 
                 <div className="flex items-center justify-center mt-8 sm:mt-16 md:mt-20 lg:mt-24 px-4">
                     {/* Grid Parent */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 w-full -translate-y-44 max-w-xl mx-auto">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 w-full -translate-y-32 max-w-xl mx-auto">
 
                         <div className="relative text-center overflow-hidden rounded-xl backdrop-blur-xl group hover:scale-105 duration-300 hover:shadow-lg hover:shadow-teal-400/20 transition-all">
                             {/* Glass look */}
