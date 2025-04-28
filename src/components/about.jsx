@@ -30,11 +30,16 @@ export default function About() {
     
                         <div className="bg-[#1E2A3A] p-6 rounded-lg hover:scale-105 duration-300">
                             <h3 className="text-[#2AC7A9] text-xl mb-2">Education</h3>
-                            <p className="text-[#F9FAFB]">B.S. in Computer Science</p>
+                            <p className="text-[#F9FAFB]">Following Software Development</p>
+                            <p 
+                            className="text-[#F9FAFB] cursor-pointer hover:text-[#2AC7A9] duration-300">
+                                <a href="https://www.ma-web.nl/" target="_blank">@ Media College</a>
+                            </p>
                         </div>
                         <div className="bg-[#1E2A3A] p-6 rounded-lg hover:scale-105 duration-300">
                             <h3 className="text-[#2AC7A9] text-xl mb-2">Skills</h3>
-                            <p className="text-[#F9FAFB]">HTML, CSS, JavaScript, React</p>
+                            <p className="text-[#F9FAFB]">HTML, CSS</p>
+                            <p className="text-[#F9FAFB]">JavaScript, React</p>
                         </div>
                     </div>
                 </div>
