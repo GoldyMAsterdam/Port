@@ -11,9 +11,9 @@ export default function Home() {
                 <nav className="bg-transparent backdrop-blur-sm text-gray-100 py-4 px-2 sm:px-4 fixed w-full top-0 z-10 border-b border-white/5">
                     <ul className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8 lg:gap-12">
                         <li><Link to="/" className="text-teal-400 text-sm sm:text-base hover:scale-105 transition-all">Home</Link></li>
-                        <li><Link to="/Port/about" className="hover:text-teal-400 transition-colors text-sm sm:text-base hover:scale-105 ">About</Link></li>
-                        <li><Link to="/Port/projects" className="hover:text-teal-400 transition-colors text-sm sm:text-base hover:scale-105">Projects</Link></li>
-                        <li><Link to="/Port/contact" className="hover:text-teal-400 transition-colors text-sm sm:text-base hover:scale-105">Contact</Link></li>
+                        <li><Link to="/about" className="hover:text-teal-400 transition-colors text-sm sm:text-base hover:scale-105 ">About</Link></li>
+                        <li><Link to="/projects" className="hover:text-teal-400 transition-colors text-sm sm:text-base hover:scale-105">Projects</Link></li>
+                        <li><Link to="/contact" className="hover:text-teal-400 transition-colors text-sm sm:text-base hover:scale-105">Contact</Link></li>
                     </ul>
                 </nav>
                 
