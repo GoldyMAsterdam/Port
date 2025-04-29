@@ -34,12 +34,12 @@ export default function About() {
             <title>Goldy - About</title>
             
             <div className="bg-grid scroll-smooth min-h-screen flex flex-col relative">
-                <nav className="bg-[#1E2A3A]/80 backdrop-blur-sm text-[#F9FAFB] p-4 fixed w-full top-0 z-10">
+                <nav className="bg-transparent backdrop-blur-sm text-[#F9FAFB] p-4 fixed w-full top-0 z-10">
                     <ul className="flex text-lg justify-center space-x-8">
                         <li><NavLink to="/">Home</NavLink></li>
-                        <li><NavLink to="/about" active>About</NavLink></li>
-                        <li><NavLink to="/projects">Projects</NavLink></li>
-                        <li><NavLink to="/contact">Contact</NavLink></li>
+                        <li><NavLink to="/Port/about" active>About</NavLink></li>
+                        <li><NavLink to="/Port/projects">Projects</NavLink></li>
+                        <li><NavLink to="/Port/contact">Contact</NavLink></li>
                     </ul>
                 </nav>
                 
